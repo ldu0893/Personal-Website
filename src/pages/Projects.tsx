@@ -15,6 +15,9 @@ const Projects = () => {
             <li>
                 test2
             </li>
+            <li>
+                test3
+            </li>
         </ul>
     </div>
     </>
