@@ -1,4 +1,7 @@
 import generic_profile_icon from "../static/generic-profile-icon.png"
+import { Link, Route, Routes } from "react-router-dom";
+import Serdes from "./serdes"
+
 const Projects = () => {
 
   return (
@@ -10,7 +13,7 @@ const Projects = () => {
         </p>
         <ul className="text-white font-medium text-xl">
             <li>
-                test
+                <Link to='./serdes'>SERDES</Link>
             </li>
             <li>
                 test2
