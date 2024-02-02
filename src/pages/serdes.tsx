@@ -51,6 +51,7 @@ const Serdes = () => {
             />
             Figure 3. C2MOS Register illustrating standardization of individual layout.
             <img
+              className="h-3/4 w-3/4"
               src={serdes_waveforms}
               alt=""
             />
