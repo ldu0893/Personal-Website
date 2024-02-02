@@ -1,7 +1,7 @@
-import generic_profile_icon from "../static/generic-profile-icon.png"
-import serdes_messy_layout from "../static/messy layout.png"
-import serdes_standard_cell from "../static/standard cell.png"
-import serdes_layout_w_desc from "../static/layout w description.png"
+import serdes_messy_layout from "../static/serdes_messy layout.png"
+import serdes_standard_cell from "../static/serdes_standard cell.png"
+import serdes_layout_w_desc from "../static/serdes_layout w description.png"
+import serdes_waveforms from "../static/serdes_waveforms.jpg"
 import { Link, Route, Routes } from "react-router-dom";
 
 const Serdes = () => {
@@ -50,6 +50,11 @@ const Serdes = () => {
               alt=""
             />
             Figure 3. C2MOS Register illustrating standardization of individual layout.
+            <img
+              src={serdes_waveforms}
+              alt=""
+            />
+            Figure 4. Waveforms illustrating PRBS and SERDES functionality.
         </p>
     </div>
     </>
