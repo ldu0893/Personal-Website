@@ -1,4 +1,5 @@
 import generic_profile_icon from "../static/generic-profile-icon.png"
+import profile_icon from "../static/profile-icon.png"
 const Home = () => {
 
   return (
@@ -11,7 +12,7 @@ const Home = () => {
         <div className="flex justify-center">
         <img
             className="rounded-full h-40 w-40 ring-2 ring-white"
-            src={generic_profile_icon}
+            src={profile_icon}
             alt=""
         />
         </div>
