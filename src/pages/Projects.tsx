@@ -1,6 +1,7 @@
 import generic_profile_icon from "../static/generic-profile-icon.png"
-import { Link, Route, Routes } from "react-router-dom";
-import Serdes from "./serdes"
+import { Link, Route, Routes } from "react-router-dom"
+import Serdes from "./Serdes"
+import Ldo from "./Ldo"
 
 const Projects = () => {
 
@@ -13,10 +14,10 @@ const Projects = () => {
         </p>
         <ul className="text-white font-medium text-xl">
             <li>
-                <Link to='./serdes'>SERDES</Link>
+                <Link to='./Serdes'>SERDES</Link>
             </li>
             <li>
-                test2
+                <Link to='./Ldo'>LDO</Link>
             </li>
             <li>
                 test3
