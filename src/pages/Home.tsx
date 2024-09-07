@@ -17,7 +17,7 @@ const Home = () => {
         />
         </div>
         <p className="text-white text-2xl text-center">
-            I build stuff. Check it out!
+            Check out my projects!
         </p>
     </div>
     </>

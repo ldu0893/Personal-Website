@@ -12,7 +12,7 @@ const AppLayout = () => {
     <Navbar />
     <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='Contact' element={<Contact />} />
+        <Route path='/Contact' element={<Contact />} />
         <Route path='/Projects' element={<Projects />} />
         <Route path='/Projects/serdes' element={<Serdes />} />
         <Route path='/Projects/Ldo' element={<Ldo />} />
